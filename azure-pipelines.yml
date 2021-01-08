@@ -32,7 +32,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     codeCoverageToolOption: 'JaCoCo'
     javaHomeOption: 'Path'
-    jdkDirectory: '/home/mickael/Documents/Java/jdk-11.0.8+10'
+    jdkDirectory: '/home/mickael/Documents/Apps/Java/jdk-11.0.8+10'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
