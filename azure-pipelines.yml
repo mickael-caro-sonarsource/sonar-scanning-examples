@@ -22,7 +22,6 @@ steps:
       # Additional properties that will be passed to the scanner, 
       # Put one key=value per line, example:
       sonar.projectKey=test-maven-coverage
-      sonar.sources=module1,module2
 
 - task: Maven@3
   inputs:
