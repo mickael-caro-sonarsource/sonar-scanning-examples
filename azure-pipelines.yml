@@ -9,8 +9,8 @@ trigger:
 pool: default
 
 variables:
-  -name: 'system.debug'
-  value: 'true'
+- name: system.debug
+  value: true 
 
 steps:
 - task: SonarCloudPrepare@1
