@@ -29,7 +29,6 @@ steps:
     goals: 'clean verify'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    codeCoverageToolOption: 'JaCoCo'
     javaHomeOption: 'Path'
     jdkDirectory: '/home/mickael/Documents/Apps/Java/jdk-11.0.8+10'
     mavenVersionOption: 'Default'
