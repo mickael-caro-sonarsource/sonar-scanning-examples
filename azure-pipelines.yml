@@ -22,7 +22,7 @@ steps:
 
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: sonarqube-scanner-maven/maven-multimodule/pom.xml'
     goals: 'clean verify'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
